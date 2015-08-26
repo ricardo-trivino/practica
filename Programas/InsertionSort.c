@@ -109,7 +109,7 @@ int main(int argc, char **argv) {
         printf("Error al abrir el archivo\n");
         exit(1);
     }
-    for(counter = arg1; counter < arg2; counter++) {
+    for(counter = arg1; counter < arg2; counter = counter + 500000) {
         clock_t begin, end; //Inicio y final del tiempo de ejecucion
         numbers = createRandom(counter);
         begin = clock();

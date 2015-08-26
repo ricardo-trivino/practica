@@ -74,7 +74,7 @@ def main():
     arg1 = int(sys.argv[1])
     arg2 = int(sys.argv[2])
     f = open('insertionPython.txt', 'w')
-    for i  in range(arg1,arg2):
+    for i  in range(arg1,arg2,500000):
         numbers = createRandom(i)
         begin = time.time()
         insertionSort(i,numbers)

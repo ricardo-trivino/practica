@@ -105,7 +105,7 @@ def main():
     arg1 = int(sys.argv[1])
     arg2 = int(sys.argv[2])
     f = open('mergePython.txt', 'w')
-    for counter  in range(arg1, arg2,500000):
+    for counter  in range(arg1, arg2):
         numbers = createRandom(counter)
         begin = time.time()
         partition(numbers, 0, counter)

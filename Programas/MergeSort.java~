@@ -159,7 +159,7 @@ public class MergeSort{
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
 
-            for(int counter = arg1; counter < arg2; counter+=500000) { 
+            for(int counter = arg1; counter < arg2; counter++) { 
                 numbers = algorithm.createRandom(counter,rnd);
                 begin = System.nanoTime(); 
                 algorithm.partition(numbers, 0, counter-1);

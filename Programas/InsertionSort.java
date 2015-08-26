@@ -112,7 +112,7 @@ public class InsertionSort {
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
 
-            for(int counter = arg1; counter < arg2; counter++) {
+            for(int counter = arg1; counter < arg2; counter+= 1000000) {
                 numbers = algorithm.createRandom(counter,rnd);
                 begin = System.nanoTime();
                 algorithm.insertionSort(counter, numbers);

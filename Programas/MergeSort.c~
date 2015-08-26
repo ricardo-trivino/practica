@@ -151,7 +151,7 @@ int main(int argc, char **argv) {
         exit(1);
     }
 
-    for(counter = arg1; counter < arg2; counter+= 500000) {
+    for(counter = arg1; counter < arg2; counter++) {
         clock_t begin, end; //Inicio y final del tiempo de ejecucion
         numbers = createRandom(counter);
         begin = clock();
