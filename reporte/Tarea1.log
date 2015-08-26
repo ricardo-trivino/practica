@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 AUG 2015 05:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 AUG 2015 07:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -608,68 +608,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--195
  []
 
 [5 <./img/Java.png> <./img/Python.png>]
-<img/1-1mJava.png, id=37, 1003.75pt x 1003.75pt>
+<img/3a.png, id=37, 818.05624pt x 444.66125pt>
+File: img/3a.png Graphic file (type png)
+ <use img/3a.png>
+Package pdftex.def Info: img/3a.png used on input line 199.
+(pdftex.def)             Requested size: 284.52756pt x 154.65672pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--201
+
+ []
+
+<img/3b.png, id=38, 827.09pt x 387.4475pt>
+File: img/3b.png Graphic file (type png)
+ <use img/3b.png>
+Package pdftex.def Info: img/3b.png used on input line 206.
+(pdftex.def)             Requested size: 284.52756pt x 133.28525pt.
+
+<img/1-1mJava.png, id=39, 1003.75pt x 1003.75pt>
 File: img/1-1mJava.png Graphic file (type png)
  <use img/1-1mJava.png>
-Package pdftex.def Info: img/1-1mJava.png used on input line 207.
+Package pdftex.def Info: img/1-1mJava.png used on input line 218.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
 
-<img/1-1mIJava.png, id=38, 1003.75pt x 1003.75pt>
+[6 <./img/3a.png> <./img/3b.png>]
+<img/1-1mIJava.png, id=43, 1003.75pt x 1003.75pt>
 File: img/1-1mIJava.png Graphic file (type png)
  <use img/1-1mIJava.png>
-Package pdftex.def Info: img/1-1mIJava.png used on input line 215.
+Package pdftex.def Info: img/1-1mIJava.png used on input line 226.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
 
-[6 <./img/1-1mJava.png>] <img/1-1mC.png, id=43, 1003.75pt x 1003.75pt>
+<img/1-1mC.png, id=44, 1003.75pt x 1003.75pt>
 File: img/1-1mC.png Graphic file (type png)
-
-<use img/1-1mC.png>
-Package pdftex.def Info: img/1-1mC.png used on input line 222.
+ <use img/1-1mC.png>
+Package pdftex.def Info: img/1-1mC.png used on input line 233.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
- <img/1-1mIC.png, id=44, 1003.75pt x 1003.75pt>
+
+<img/1-1mIC.png, id=45, 1003.75pt x 1003.75pt>
 File: img/1-1mIC.png Graphic file (type png)
-
-<use img/1-1mIC.png>
-Package pdftex.def Info: img/1-1mIC.png used on input line 228.
+ <use img/1-1mIC.png>
+Package pdftex.def Info: img/1-1mIC.png used on input line 239.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
- <img/1-1mPython.png, id=45, 1003.75pt x 1003.75pt>
+ [7 <./img/1-1mJava.png> <./img/1-1mIJava.png>]
+<img/1-1mPython.png, id=52, 1003.75pt x 1003.75pt>
 File: img/1-1mPython.png Graphic file (type png)
-
-<use img/1-1mPython.png>
-Package pdftex.def Info: img/1-1mPython.png used on input line 234.
+ <use img/1-1mPython.png>
+Package pdftex.def Info: img/1-1mPython.png used on input line 245.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
- [7 <./img/1-1mIJava.png> <./img/1-1mC.png>]
-<img/1-1mIPython.png, id=52, 1003.75pt x 1003.75pt>
+
+<img/1-1mIPython.png, id=53, 1003.75pt x 1003.75pt>
 File: img/1-1mIPython.png Graphic file (type png)
  <use img/1-1mIPython.png>
-Package pdftex.def Info: img/1-1mIPython.png used on input line 240.
+Package pdftex.def Info: img/1-1mIPython.png used on input line 251.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
 
-[8 <./img/1-1mIC.png> <./img/1-1mPython.png>]
-<img/1-10Java.png, id=58, 1003.75pt x 1003.75pt>
+[8 <./img/1-1mC.png> <./img/1-1mIC.png>]
+<img/1-10Java.png, id=59, 1003.75pt x 1003.75pt>
 File: img/1-10Java.png Graphic file (type png)
  <use img/1-10Java.png>
-Package pdftex.def Info: img/1-10Java.png used on input line 247.
+Package pdftex.def Info: img/1-10Java.png used on input line 258.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
 
-<img/1-2C.png, id=59, 1003.75pt x 1003.75pt>
+<img/1-2C.png, id=60, 1003.75pt x 1003.75pt>
 File: img/1-2C.png Graphic file (type png)
  <use img/1-2C.png>
-Package pdftex.def Info: img/1-2C.png used on input line 253.
+Package pdftex.def Info: img/1-2C.png used on input line 264.
 (pdftex.def)             Requested size: 284.52756pt x 284.52481pt.
- [9 <./img/1-1mIPython.png> <./img/1-10Java.png>] [10 <./img/1-2C.png>] (./Tare
-a1.aux
+ [9 <./img/1-1mPython.png> <./img/1-1mIPython.png>] [10 <./img/1-10Java.png> <.
+/img/1-2C.png>]
+[11] (./Tarea1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4104 strings out of 493117
- 54526 string characters out of 6135433
+ 4114 strings out of 493117
+ 54656 string characters out of 6135433
  131136 words of memory out of 5000000
- 7468 multiletter control sequences out of 15000+600000
+ 7476 multiletter control sequences out of 15000+600000
  11815 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,30p,859b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,30p,859b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
 b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -683,10 +700,10 @@ texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Tarea1.pdf (10 pages, 442313 bytes).
+Output written on Tarea1.pdf (11 pages, 506071 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
