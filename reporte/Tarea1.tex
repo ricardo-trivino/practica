@@ -139,12 +139,12 @@
       de complejidad de merge sort depende de un árbol binario completo
       es por esa razón que la altura queda representada por $log_2(n)$.
       Si graficamos esta igualdad obtenemos:
-      \begin{figure}[H]
-         \centering
+    %  \begin{figure}[H]
+    %     \centering
           %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{ejercicio2_1.png} 
-          \caption{Gráfica $y= n-8*log_2(n)$}
-      \end{figure}
+    %      \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{ejercicio2_1.png} 
+    %      \caption{Gráfica $y= n-8*log_2(n)$}
+     % \end{figure}
       Por lo que, la solución a la igualdad es cuando
       $n =1.0\overline{999}$ y $n=43$, con lo que concluimos que si 
       $2 \leq n \leq 43$, entonces el algoritmo de inserción directa 
@@ -152,6 +152,42 @@
    
 
   \item \textbf{Respuesta de manera experimental:} \\ 
+Al poner en ejecución el programa se tomo como precaución el
+	no trabajar con interfaz gráfica ni con otro programa ejecutandose
+	al mismo tiempo para evitar, en medida de lo posible, 
+	la intervención de ruido en nuestras mediciones.\\ 
+	Realizamos 3 versiones para cada algoritmo, una escrita
+	en java, otra escrita en C y una escrita en python. Al 
+	hacer la ejecución de nuestro código y graficar el tiempo
+	que tardó cada programa, obtenemos los siguientes resultados:
+\begin{figure}[H]
+         \centering
+          %trim left bottom right top
+          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{C.png} 
+          \caption{Gráfica que muestra tiempo vs longitud de la lista para el lenguaje C}
+      \end{figure}
+\begin{figure}[H]
+         \centering
+          %trim left bottom right top
+          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{Java.png} 
+          \caption{Gráfica que muestra tiempo vs longitud de la lista para el lenguaje Java}
+      \end{figure}
+\begin{figure}[H]
+         \centering
+          %trim left bottom right top
+          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{Python.png} 
+          \caption{Gráfica que muestra tiempo vs longitud de la lista para el lenguaje Python}
+      \end{figure}
+	En las gráficas podemos apreciar que para el lenguaje de
+	programación Python la cota teórica se respetó totalmente, 
+	sin embargo, para C esto no ocurrió, las causas pueden ser
+	diversas, pero nos aventuramos a conjeturar que una de las
+	posibles razones fue que al generar números aleatorios para
+	ordenar, estos pudieron comportarse de tal manera que no
+	explotaran el peor caso del algoritmo de Inserción directa,
+	dicho caso se presenta cuando los números están acomodados
+	de manera inversa al orden natural. 
+
     \end{itemize}
 \end{enumerate}
 
