@@ -139,12 +139,12 @@
       de complejidad de merge sort depende de un árbol binario completo
       es por esa razón que la altura queda representada por $log_2(n)$.
       Si graficamos esta igualdad obtenemos:
-      \begin{figure}[H]
-         \centering
+    %  \begin{figure}[H]
+    %     \centering
           %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{ejercicio2_1.png} 
-          \caption{Gráfica $y= n-8*log_2(n)$}
-      \end{figure}
+    %      \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{ejercicio2_1.png} 
+    %      \caption{Gráfica $y= n-8*log_2(n)$}
+     % \end{figure}
       Por lo que, la solución a la igualdad es cuando
       $n =1.0\overline{999}$ y $n=43$, con lo que concluimos que si 
       $2 \leq n \leq 43$, entonces el algoritmo de inserción directa 
@@ -194,46 +194,7 @@ Al poner en ejecución el programa se tomo como precaución el
   Para este ejercicio se tomaron las mismas precauciones que para el ejercicio 2, las iteraciones se realizaron sin
   interfaz gráfica y sin ejecutar otro programa para evitar, hasta donde es posible, el ruido en nuestros datos.\\
   La presentación de los datos la realizamos en forma de gráfica para que los datos sean más fáciles de interpretar. 
-   \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mJava.png} 
-          \caption{Gráfica para MergeSort en el lenguaje Java de 1 a 1 millon}
-      \end{figure}
-      
-      
-       \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mIJava.png} 
-          \caption{Gráfica para InsertionSort en el lenguaje Java de 1 a 1 millon}
-      \end{figure}
-      
-       \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mC.png} 
-          \caption{Gráfica para MergeSort en el lenguaje C de 1 a 1 millon}
-      \end{figure}
-       \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mIC.png} 
-          \caption{Gráfica para InsertionSort en el lenguaje C de 1 a 1 millon}
-      \end{figure}
-       \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mPython.png} 
-          \caption{Gráfica para MergeSort en el lenguaje Python de 1 a 1 millon}
-      \end{figure}
-       \begin{figure}[H]
-         \centering
-          %trim left bottom right top
-          \includegraphics[trim=0cm 0cm 0cm 0cm, width=10cm]{1-1mIPython.png} 
-          \caption{Gráfica para InsertionSort en el lenguaje Python de 1 a 1 millon}
-      \end{figure}
-      
+  
   \begin{figure}[H]
          \centering
           %trim left bottom right top
